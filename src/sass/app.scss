@@ -1,4 +1,45 @@
+@import 'reset';
+@import 'color';
+@import "type";
+
+@import url(http://fonts.googleapis.com/css?family=Indie+Flower);
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
 body {
-  background: #222;
-  color: #93DE7F;
+  background: $purple;
+  color: $green;
+}
+
+.header {
+  background-image: url(http://37.media.tumblr.com/737163b3da9863095e3fe0cf9d16332f/tumblr_n1zlrx9HfG1sqev8ho1_500.gif);
+  background-repeat: no-repeat;
+  text-align:right;
+  color: $green;
+  margin: 10px;
+}
+
+.cult-photo {
+  height: 25em;
+  margin: 10px;
+  border: 10px ridge $pink;
+  float:left;
+}
+
+
+.about {
+  margin: 10px;
+}
+
+.satan {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  background-image: url(http://24.media.tumblr.com/519911d3f9ec924f45181a81b174286a/tumblr_ms0lbjfbTZ1s0i6ofo1_500.jpg);
+  background-position: 50% 50%;
+  background-size: 100%;
 }
